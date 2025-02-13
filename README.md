@@ -61,9 +61,15 @@ La estructura principal del proyecto es la siguiente:
 
 ```
 MultiModalChat/
-├── app.py              # Archivo principal con la lógica del bot
-├── requirements.txt    # Lista de dependencias
+├── imgs/               # Carpeta de imágenes de prueba
+│   ├── probe.jpeg
+│   ├── probe2.jpeg
+├── temp/               # Carpeta para almacenar imágenes
+├── test/               # Carpeta para pruebas
+│   ├── nb_probes.ipynb
 ├── .env                # Archivo de configuración con claves API
+├── .gitignore          # Archivo para ignorar archivos no necesarios
+├── app.py              # Archivo principal con la lógica del bot
 ├── LICENSE             # Licencia del proyecto
 ├── README.md           # Documentación del proyecto
 ```

@@ -42,6 +42,16 @@ Sigue estos pasos para instalar y configurar MultiModalChat:
    OPENAI_API_KEY="tu_clave_api_de_openai"
    TELEGRAM_BOT_TOKEN="tu_token_de_bot_de_telegram"
    ```
+## Crear un Bot de Telegram
+
+Sigue estos pasos para crear un bot de Telegram:
+
+1. Abre Telegram y busca el bot llamado **BotFather**.
+2. Inicia una conversación con **BotFather** y envía el comando `/start`.
+3. Crea un nuevo bot enviando el comando `/newbot`.
+4. Sigue las instrucciones para elegir un nombre y un nombre de usuario para tu bot.
+5. Obtén el token de acceso HTTP API que **BotFather** te proporcionará.  
+   > ⚠ **Nota:** No compartas este token, ya que es necesario para interactuar con la API de Telegram.
 
 ## Uso
 
